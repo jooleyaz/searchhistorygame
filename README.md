@@ -17,3 +17,4 @@ DEV TO-DOS
 - make sure the list only includes what's searched, ignoring "google.com" and the dates (every other entry)
 - on the next page, when button is clicked, display a random list entry
 - in the entry box, if 1 or 2 is clicked (make this into buttons with player name later), the right answer is displayed and score is updated
+- figure out how to make a multiplayer thing where players can enter a code on their computer, join the code lobby, each person enters their prompts, then the same thing is displayed on each device
