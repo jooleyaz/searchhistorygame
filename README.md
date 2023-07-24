@@ -1,7 +1,9 @@
 # searchhistorygame
 Concept: Like photo roulette, but for things friends have googled
+
 Prerequisites:
 - Must be a google chrome user (for now)
+
 How to play (to be implemented soon 💀):
 - Go to chrome's "history" page
 - In the search bar, enter "www.google.com"
