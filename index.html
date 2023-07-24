@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search History Game</title>
+</head>
+<body>
+    <h1>Search History Game</h1>
+
+    <div id="startPrompt">
+        <p>For player 1, please enter pasted search entries below:</p>
+        <textarea id="player1"></textarea>
+        <button id="playerOnePrompts">Submit</button>
+
+        <p>For player 2, please enter pasted search entries below:</p>
+        <textarea id="player2"></textarea>
+        <button id="playerTwoPrompts">Submit</button>
+
+        <p>Once you're both satisfied, click the button below:</p>
+        <button id="startButton">Click me!</button>
+    </div>
+
+    <div id="playerOneTurn" style="display: none;">
+        <p>Guess which player searched the following:</p>
+        <input id="prompt" type="text">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -11,3 +11,9 @@ How to play (to be implemented soon 💀):
 - Copy (ctrl-c) and paste (ctrl-v) into the game for player 1
 - Player 2 does the same steps
 - Play until desired to stop!!
+
+DEV TO-DOS
+- save user-inputted data into a list when submit is clicked, for each player
+- make sure the list only includes what's searched, ignoring "google.com" and the dates (every other entry)
+- on the next page, when button is clicked, display a random list entry
+- in the entry box, if 1 or 2 is clicked (make this into buttons with player name later), the right answer is displayed and score is updated
