@@ -13,8 +13,10 @@ How to play (to be implemented soon 💀):
 - Play until desired to stop!!
 
 DEV TO-DOS
-- save user-inputted data into a list when submit is clicked, for each player
-- make sure the list only includes what's searched, ignoring "google.com" and the dates (every other entry)
+- DONE: save user-inputted data into a list when submit is clicked, for each player
+- DONE: make sure the list only includes what's searched, ignoring "google.com" and the dates (every other entry)
+- clean up code
 - on the next page, when button is clicked, display a random list entry
 - in the entry box, if 1 or 2 is clicked (make this into buttons with player name later), the right answer is displayed and score is updated
 - figure out how to make a multiplayer thing where players can enter a code on their computer, join the code lobby, each person enters their prompts, then the same thing is displayed on each device
+- make it look pretty!!

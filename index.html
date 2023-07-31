@@ -6,24 +6,30 @@
     <title>Search History Game</title>
 </head>
 <body>
-    <h1>Search History Game</h1>
-
-    <div id="startPrompt">
-        <p>For player 1, please enter pasted search entries below:</p>
-        <textarea id="player1"></textarea>
-        <button id="playerOnePrompts">Submit</button>
-
-        <p>For player 2, please enter pasted search entries below:</p>
-        <textarea id="player2"></textarea>
-        <button id="playerTwoPrompts">Submit</button>
-
-        <p>Once you're both satisfied, click the button below:</p>
-        <button id="startButton">Click me!</button>
+    <div id="testArea">
+        <textarea id="testInput"></textarea>
+        <button id="testButton">Click me to change the text value below to your input value</button>
+        <p id="testText">Not changed</p>
     </div>
 
-    <div id="playerOneTurn" style="display: none;">
-        <p>Guess which player searched the following:</p>
-        <input id="prompt" type="text">
+    <div id="gameArea">
+
+        <h1>Search History Game</h1>
+
+        <div id="startPrompt">
+            <p>Please enter </p>
+            <textarea id="startText"></textarea>
+
+            <p>Once you're satisfied, click the button below:</p>
+            <button id="startButton">Click me!</button>
+        </div>
+
+        <div id="playerOneTurn" style="display: none;">
+            <p id="test"></p>
+            <p>Guess which player searched the following:</p>
+            <input id="prompt" type="text">
+        </div>
+
     </div>
 
     <script src="script.js"></script>
