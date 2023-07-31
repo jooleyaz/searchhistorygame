@@ -9,6 +9,7 @@ const startPrompt = document.getElementById("startPrompt"); // div
 const startText = document.getElementById("startText"); // text input
 const test = document.getElementById("test"); // display area
 const playerOneTurn = document.getElementById("playerOneTurn");
+const random = document.getElementById("random");
 let originalList;
 let filteredList;
 let promptString;
@@ -41,6 +42,11 @@ startButton.addEventListener("click", function() {
     // Displays the list of search histories with dashes
     promptString = filteredList.join(" - ");
     test.textContent = promptString;
+
+    listLength = filteredList.length;
+    randomIndex = Math.floor(Math.random() * listLength); // getting a random array index
+    random.textContent = filteredList[randomIndex];
+
     playerOneTurn.style.display = "block";
 })
 
