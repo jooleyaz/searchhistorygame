@@ -43,6 +43,7 @@ startButton.addEventListener("click", function() {
     promptString = filteredList.join(" - ");
     test.textContent = promptString;
 
+    // Displays a random search history entry
     listLength = filteredList.length;
     randomIndex = Math.floor(Math.random() * listLength); // getting a random array index
     random.textContent = filteredList[randomIndex];
