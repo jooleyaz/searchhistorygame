@@ -14,6 +14,28 @@ let originalList;
 let filteredList;
 let promptString;
 
+/////////////////// FIREBASE STUFF -- EXPERIMENTAL ///////////////////////////
+
+// Import the functions you need from the SDKs you need
+// import { initializeApp } from "firebase/app";
+// // TODO: Add SDKs for Firebase products that you want to use
+// // https://firebase.google.com/docs/web/setup#available-libraries
+
+// // Your web app's Firebase configuration
+// const firebaseConfig = {
+//   apiKey: "AIzaSyA4YF_W2qdT5ZVytdHMpMVQUU4zi9mzZqc",
+//   authDomain: "search-history-game.firebaseapp.com",
+//   projectId: "search-history-game",
+//   storageBucket: "search-history-game.appspot.com",
+//   messagingSenderId: "795970222892",
+//   appId: "1:795970222892:web:91e83fa6b499cabb27ca89"
+// };
+
+// // Initialize Firebase
+// const app = initializeApp(firebaseConfig);
+
+/////////////////////////////////////////////////
+
 testButton.addEventListener("click", function() {
     testList = testInput.value.split("\n");
     for (i in testList) {
