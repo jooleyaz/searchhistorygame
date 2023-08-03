@@ -14,15 +14,9 @@ How to play (to be implemented soon 💀):
 
 DEV TO-DOS :P
 - if using firebase:
-    - set up a firebase project and integrate it client-side
+    - learn how to use firebase now lol
     - add user authentication
     - use realtime database to store and sync game data (lobbies, players, scores, game states)
-- if developing on my own:
-    - use node.js with express.js to handle game logic and manage client interactions
-    - create a server that can create game lobbies, join lobbies, start rounds, handle player guesses, updating scores, broadcasting info to clients
-    - add real-time connection using WebSockets or WebRTC
-    - implement ui
-    - handle disconnections
 - make it look pretty!!
 
 DEV COMPLETED ITEMS :D
@@ -30,3 +24,4 @@ DEV COMPLETED ITEMS :D
 - make sure the list only includes what's searched, ignoring "google.com" and the dates (every other entry)
 - clean up code
 - when button is clicked, display the entire list and a random list entry
+- set up a firebase project and integrate it client-side
